@@ -106,8 +106,8 @@ void KR_Nes::initMapper(void)
 	case UNROM:
 		m_mapper.type = UNROM;
 		m_mapper.num_banks = m_header.PRG_ROM_NUM;
-		m_mapper.alloc_banks();
-		m_mapper.assign_banks(m_rom, m_cart);
+		
+		
 		break;
 	}
 
