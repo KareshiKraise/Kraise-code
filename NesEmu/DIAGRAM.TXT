@@ -1,0 +1,26 @@
+TODO list and Project diagram
+
+
+1 - load rom
+
+1.1 - verify rom headers
+1.2 - fetch mapper, trainer,mirroring, battery packed ram, prg_size and chr_size.
+
+2 - set mapping and load rom.
+2.1 - verify mapping in a switch statement, and perform the relevant allocations.
+
+3 - fetch opcodes and cycle cpu
+3... (???)
+
+
+
+-------------------------------------------------------------------------------------------------
+
+
+When the nes initializes:
+
+- cpu jump to FFFC
+-disable PPU NMI and rendering
+-init stack pointer
+-init mapper
+
